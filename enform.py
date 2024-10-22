@@ -229,4 +229,7 @@ def main():
         pass
 
 if __name__ == "__main__":
+    if os.name == 'nt':
+        os.system('')
+
     main()
